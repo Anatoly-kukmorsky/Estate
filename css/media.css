@@ -1,0 +1,221 @@
+@media (max-width: 1215px) {
+    .testimonials {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 960px) {
+    .section {
+        padding: 40px 0;
+    }
+
+    .listings__top {
+        margin: 0 auto 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonials {
+        padding-bottom: 100px;
+    }
+
+    .footer__wrapper {
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        column-gap: 60px;
+        row-gap: 40px;
+    }
+}
+
+@media (max-width: 678px) {
+    .testimonials__wrapper-item {
+        min-width: 560px;
+        height: 320px;
+        padding: 26px;
+    }
+
+    .testimonials__buttons {
+        left: calc(50% - 70px);
+        gap: 30px;
+    }
+
+    .testimonials__buttons .block-arrow {
+        width: 52px;
+        height: 52px;
+
+        border: 2px solid #52503b;
+        color: #52503b;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 568px) {
+    .header__top {
+        justify-content: center;
+    }
+
+    .header__top-nav {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: -140px;
+
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .top-nav__link {
+        font-size: 20px;
+        line-height: 22px;
+        color: #444444;
+    }
+
+    .header__overlay {
+        padding-bottom: 40px;
+    }
+
+    .header-title {
+        max-width: 530px;
+        font-size: 30px;
+        line-height: 40px;
+        color: #45525b;
+        text-align: center;
+    }
+
+    .section .section-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .testimonials__top .section-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .testimonials__wrapper-item {
+        min-width: 460px;
+        height: 320px;
+        padding: 20px;
+    }
+
+    .footer__soc {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 468px) {
+
+    .testimonials__wrapper-item {
+        min-width: 360px;
+        min-height: 360px;
+        padding: 20px;
+    }
+
+    .footer__logo {
+        margin-bottom: 30px;
+    }
+    
+    .footer,
+    .footer .footer-text,
+    .soc-link {
+        color: rgb(182, 197, 197);
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+    }
+
+    .footer__wrapper-item .selectLinks{
+        width: 200px;
+        position: relative;
+    }
+
+     .footer__wrapper-item .selectLinks::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        top:0;
+        right: 0;
+        background-color: #6f7278;
+        transform: rotate(45deg);
+    }
+
+     .footer__wrapper-item .selectLinks::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 14px;
+        top: 0;
+        right: 10px;
+        background-color: #6f7278;
+        transform: rotate(-45deg);
+    }
+
+    .links__wrapper {
+        display: none;
+        align-items: center;
+    }
+
+    .links__wrapper.active {
+        display: flex;
+    }
+
+    .footer__form {
+        padding: 0;
+        padding-top: 15px;
+        background: none;
+        border: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .footer__wrapper-item__form {
+        text-align: center;
+    }
+
+    .footer__form-input {
+        height: 40px;
+        border: none;
+        padding: 10px;
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 22px;
+        color: #6f7278;
+        background: transparent;
+        border-radius: 10px;  
+        border: 2px solid #40547a;
+        text-align: center;
+    }
+
+    .footer__form-button {
+        width: 245px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #40547a;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 388px) {
+    .testimonials__wrapper-item {
+        min-width: 300px;
+        min-height: 400px;
+        padding: 20px;
+    }
+}
